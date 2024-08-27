@@ -858,6 +858,7 @@
             var that = this;
             that.hide();
             that.onSelect(i);
+            document.getElementById('autocomplete-ajax').value = document.getElementById('autocomplete-ajax').value.replace('?','@'); 
             document.fBusca.submit();
             //document.fBusca.subfBusca.click(); 
         },
