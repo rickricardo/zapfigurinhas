@@ -858,7 +858,6 @@
             var that = this;
             that.hide();
             that.onSelect(i);
-            alert('a');
             document.fBusca.submit();
             //document.fBusca.subfBusca.click(); 
         },
